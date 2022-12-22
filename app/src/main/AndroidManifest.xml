@@ -58,12 +58,7 @@
             android:exported="true">
 
         </activity>
-        <activity
-            android:name="com.seca.skincare.activity.NewsDetailScreens"
-            android:screenOrientation="portrait"
-            android:exported="true">
 
-        </activity>
         <activity
             android:name="com.seca.skincare.activity.ProductDetailScreens"
             android:screenOrientation="portrait"
