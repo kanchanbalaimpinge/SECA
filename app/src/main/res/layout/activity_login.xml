@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical">
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingLeft="@dimen/_20dp"
+    android:paddingRight="@dimen/_20dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatImageView
+
+        style="@style/title_text"
+        android:layout_marginTop="@dimen/_30dp"
+        android:id="@+id/back"
+        android:layout_gravity="left"
+        android:onClick="onClick"
+        android:src="@drawable/back"
+
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+
+        style="@style/title_text"
+        android:layout_marginTop="@dimen/_30dp"
+        android:id="@+id/title"
+        android:text="@string/sigin_to_seca_app"
+       />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/small_text"
+        android:layout_marginTop="@dimen/_20dp"
+        android:id="@+id/subtitle"
+        android:gravity="center_horizontal"
+        android:text="@string/type_your_phn_no"
+       />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_phone_no"
+            android:tag="@string/enter_phone_no"
+            android:fontFamily="@font/nunito_regular"
+            android:textColor="@color/dark_cyan"
+            android:maxLines="3"
+            android:layout_marginTop="@dimen/_100dp"
+            android:singleLine="false"
+            android:id="@+id/editText_title"
+            android:layout_gravity="left"
+
+            android:textSize="@dimen/_15dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:layout_margin="@dimen/_10dp"
+
+        android:orientation="horizontal">
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginLeft="@dimen/_15dp"
+
+            app:ccp_contentColor="@color/dark_cyan"
+            app:ccp_defaultNameCode="ID"
+
+            app:ccp_showArrow="false"
+            android:layout_alignParentBottom="true"
+            app:ccp_textSize="@dimen/_15dp"
+            app:ccpDialog_textColor="@color/dark_gray"
+            app:ccp_textGravity="RIGHT"
+            android:layout_gravity="center_vertical"
+            app:ccp_showNameCode="false"
+            app:ccp_showFlag="false"
+            />
+    <com.seca.skincare.utils.NoImeEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etphone"
+        android:hint="@string/enter_phone_no"
+        android:paddingRight="@dimen/_15dp"
+        android:paddingTop="@dimen/_15dp"
+
+        android:paddingBottom="@dimen/_15dp"
+        android:background="@android:color/transparent"
+
+        android:textColor="@color/dark_cyan"
+        android:inputType=""
+        android:textSize="@dimen/_15dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="90">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:fontFamily="@font/nunito_regular"
+
+            android:text="1"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:id="@+id/_text1"
+            android:onClick="setNumber"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="2"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+
+            android:id="@+id/_text2"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:text="3"
+        android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+
+            android:id="@+id/_text3"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="90">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="4"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:id="@+id/_text4"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="5"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:id="@+id/_text5"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="6"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:id="@+id/_text6"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="90">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="7"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:id="@+id/_text7"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="8"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:id="@+id/_text8"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="9"
+            android:textSize="@dimen/_20dp"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:id="@+id/_text9"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="90">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:onClick="setNumber"
+
+            android:layout_marginTop="@dimen/_20dp"
+            android:textSize="@dimen/_20dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="0"
+            android:textSize="@dimen/_20dp"
+            android:padding="@dimen/_10dp"
+            android:onClick="setNumber"
+            android:fontFamily="@font/nunito_regular"
+
+            android:textColor="@color/dark_cyan"
+            android:id="@+id/_text0"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:text="8"
+            android:src="@drawable/ic_cross"
+            android:onClick="onClick"
+
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/dark_cyan"
+            android:id="@+id/_cross"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:id="@+id/signin"
+        android:text="@string/sign_in"
+        android:textColor="@color/middle_gray"
+        android:onClick="onClick"
+
+        android:layout_margin="@dimen/_20dp"
+        android:textAllCaps="false"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/small_text"
+        android:layout_marginTop="@dimen/_10dp"
+        android:id="@+id/forgot_pwd"
+        android:onClick="onClick"
+        android:text="@string/forgot_password"
+
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

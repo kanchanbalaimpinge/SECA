@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_gravity="center_horizontal"
+android:gravity="center_horizontal"
+android:layout_height="wrap_content"
+    android:background="@drawable/chat_bg"
+    android:layout_margin="@dimen/_5dp"
+android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        style="@style/subtitle_text"
+        android:layout_weight="90"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:fontFamily="@font/nunito_medium"
+        android:text="1 November, Score: 95"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_20dp" />
+<androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/profile"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/nunito_medium"
+    android:gravity="center_horizontal"
+    android:src="@drawable/profile_icon"
+    android:visibility="visible"
+
+    android:textColor="@color/dark_gray"
+    android:textSize="@dimen/_20dp" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/whtsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_medium"
+        android:gravity="center_horizontal"
+        android:src="@drawable/whtsapp_icon"
+
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_20dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

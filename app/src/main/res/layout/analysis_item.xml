@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_gravity="center_horizontal"
+android:layout_height="wrap_content"
+    android:padding="@dimen/_5dp"
+    android:id="@+id/analysis_item"
+android:orientation="horizontal">
+
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        style="@style/subtitle_text"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/nunito_medium"
+        android:gravity="left"
+        android:text="1 November, Score: 95"
+
+
+        android:layout_marginLeft="@dimen/_20dp"
+        android:textColor="@color/dark_cyan"
+        android:textSize="@dimen/_15dp" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/value"
+        style="@style/subtitle_text"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/nunito_regular"
+        android:gravity="left"
+        android:text="1 November, Score: 95"
+
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_20dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

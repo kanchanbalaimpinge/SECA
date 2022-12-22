@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">SECA</string>
+    <string name="next">Next</string>
+    <string name="page1_title">No Alcohol </string>
+    <string name="page1_subtitle">Do not contain harmful alcohols such as ethanol/ethyl alcohol and alcohol denat.</string>
+    <string name="page2_title">Minimal Ingredients</string>
+    <string name="page2_subtitle">Seca believes that by reducing the active ingredients in the skin care can be the right answer for healthy and quality skin.</string>
+    <string name="page3_title">No tested on animals</string>
+    <string name="page3_subtitle">We use other alternatives that still ensure every Seca products are safe without the need to harm animals.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account?<font color='#00201E'> <b> Sign In</b></font></string>
+    <string name="agree_text">By providing my phone number, I agree and accept with Terms of Service and Privacy Policy in use of the Seca app.</string>
+    <string name="welcome_inst">Welcome to Seca App!</string>
+    <string name="new_user_registration">New user registration</string>
+
+    <string name="signup_inst">Enter your phone number to create a new account or use the Sign In link to use an existing account</string>
+    <string name="new_account_inst">Please choose a username and password for your new account</string>
+
+    <string name="enter_phone_no">Enter your phone number</string>
+    <string name="enter_username">Enter a username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="wrong_password1">Enter your password <font color='#CF2727'>*Wrong password</font></string>
+    <string name="wrong_password"><font color='#CF2727'>*Wrong password</font></string>
+    <string name="password_short"><font color='#CF2727'>*Password too short</font></string>
+    <string name="username_short"><font color='#CF2727'>*Username should be of atleast 2 characters</font></string>
+    <string name="wrong_code"><font color='#CF2727'>*Wrong code</font></string>
+    <string name="wrong_username"><font color='#CF2727'>*Wrong username</font></string>
+    <string name="page4_title">No added Phthalates</string>
+    <string name="page4_subtitle">All Seca products are Paraben, Vegan and Trial free against animals.</string>
+    <string name="sigin_to_seca_app">Sign In to Seca App</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="enter_new_password_inst">Now you can change your password using forms below</string>
+    <string name="reset_password_inst">Enter your phone number to reset the password, we will send you a code  to WhatsApp</string>
+    <string name="whatsapp_verification">WhatsApp verification</string>
+    <string name="type_your_phn_no">Type your phone number to Sign In</string>
+    <string name="type_your_password">Type your password to Sign In</string>
+    <string name="phone_no_not_registered">Enter your phone number.<font color='#CF2727'> *This phone number is not registered</font></string>
+    <string name="enter_new_phon_no_error"><font color='#CF2727'> *This phone number is not registered</font></string>
+    <string name="forgot_password">Forgot your password? <font color='#00201E'> <b>Reset password</b></font></string>
+    <string name="sign_in">Sign In</string>
+    <string name="please_type_verification_code">Please type verification code sent to</string>
+    <string name="did_not_get_code">Didn\'t get WhatsApp code?<font color='#00201E'> <b>Resend code</b></font></string>
+    <string name="you_will_code_in">You will get WhatsApp code in</string>
+    <string name="code_sent">Code sent successfully</string>
+    <string name="create_account">Create an Account</string>
+    <string name="change_password">Change password</string>
+    <string name="membership_number">Membership number</string>
+    <string name="become_a_skin_consultant">Become a skin consultant</string>
+    <string name="improve_the_society_skincare_health">Improve the society skincare health</string>
+    <string name="description">As a consultant you will transform like of
+people making them confident about their skin.  We will support you at every step of the way and provide you tool to help understand your cusomers.
+
+You will get those features
+
+— Earn income while supporting your friends
+— Get to know the latest trends in skincare
+— Get to participate in our exclusive events
+     and focus groups</string>
+    <string name="new_product">New products</string>
+    <string name="advises_webinars">Advises, webinars and community</string>
+    <string name="skin_scores">Skin scores</string>
+    <string name="result_analysis">Result of the analysis</string>
+    <string name="your_consultant">Your consultant</string>
+    <string name="purchase_history">Purchase history</string>
+    <string name="home">Home</string>
+    <string name="ai_scan">AI Scan</string>
+    <string name="shop">Shop</string>
+    <string name="become">Become</string>
+    <string name="news">News</string>
+    <string name="date">Date</string>
+    <string name="item">Item</string>
+    <string name="check_network_connection">Please check internet connection.</string>
+    <string name="get_geatures">You will get those features</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="order_nfo">Order Info</string>
+    <string name="details">Details</string>
+    <string name="how_to_use">How to use"</string>
+    <string name="where">Where</string>
+    <string name="do_dont"><![CDATA[Do & Don’t]]></string>
+    <string name="delivery_location"><font color='#CF2727'> *Must be filled</font></string>
+    <string name="delivery_location_only">Delivery Location</string>
+    <string name="subtotal">Sub Total</string>
+    <string name="shipping_cost">Shipping Cost</string>
+    <string name="total">Total</string>
+    <string name="buy">Buy</string>
+    <string name="news_tips"><![CDATA[News & Tips]]></string>
+    <string name="read_more">Read more</string>
+    <string name="take_a_selfie">Take a selfie</string>
+    <string name="upload_image">Upload image</string>
+    <string name="ai_analyzer">AI Analyser</string>
+    <string name="history_of_scans">History of Scans</string>
+    <string name="lighning_gold">Lighting Good</string>
+    <string name="make_sure_lighning_gold">1. Make sure your <font color='#00201E'>lighting is good</font></string>
+    <string name="look_straignht">Look Straight Not Good</string>
+    <string name="make_sure_look_straignht">2. Make sure your eyes are <font color='#00201E'>looking straight to the camera</font></string>
+    <string name="face_position">Face Position Not Good</string>
+    <string name="make_sure_face_position">3. Make sure your <font color='#00201E'>face position is straight and in the middle of the frame</font> </string>
+    <string name="keep_face_inside">Keep your face inside the circle</string>
+    <string name="flip_camera">Flip camera</string>
+    <string name="consultant">Consultant</string>
+    <string name="type_a_name_client">Type name of the client</string>
+    <string name="recent_client">Recent clients</string>
+    <string name="search">Search</string>
+    <string name="continue1">Continue</string>
+    <string name="enter_code">Enter WhatsApp code</string>
+    <string name="please_wait">Please wait</string>
+    <string name="password_not_match"><font color='#CF2727'> *Password do not match</font></string>
+    <string name="add_address">Add Address</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="submit">Submit</string>
+    <string name="please_enter_review">Please enter  address</string>
+    <string name="please_addres">Add Full Address</string>
+    <string name="please_city">Add City</string>
+    <string name="file_uploaded_successfully">File Uploaded Successfuly</string>
+    <string name="earn_income">— Earn income while supporting your friends</string>
+    <string name="latest_trends">— Get to know the latest trends in skincare</string>
+    <string name="participate">— Get to participate in our exclusive events and focus groups</string>
+    <string name="become_consultant">Activate Subscription</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="phone">Phone: </string>
+    <string name="purchase">"Purchase: "</string>
+    <string name="money_spent">Money Spent: </string>
+    <string name="price_unit">IDR</string>
+    <string name="no_client">No client found</string>
+    <string name="no_product_in_cart">Cart Empty</string>
+    <string name="please_add_address">Please add address.</string>
+    <string name="currency_unit">IDR</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="exit_app">Exit App</string>
+    <string name="are_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="seca_reactivate">SECA requires you to relogin  the application to activate the subscription</string>
+    <string name="confirmation_activate">Do you want to activate subscription?</string>
+    <string name="no_scan">No record found.</string>
+    <string name="promotions">Promotions</string>
+    <string name="add_city">Add City</string>
+    <string name="selfie_instruction">SELFIE \nINSTRUCTION</string>
+    <string name="scan_progress">SCAN IS IN PROGRESS...</string>
+    <string name="whts_app_message">Results will be available in 24 hours, we will send you a Whatsapp message for updates</string>
+    <string name="overall_result">Overall Results</string>
+    <string name="overall_result_key">overall results</string>
+    <string name="skin_concerns">Skin Concerns</string>
+    <string name="skin_concerns_key">skin_concerns</string>
+    <string name="aging">Aging</string>
+    <string name="aging_key">aging</string>
+    <string name="analysis_results">Analysis results for </string>
+    <string name="product_recommendation">Product recommendation</string>
+    <string name="no_scan_result_found">Image is not analysed yet.</string>
+    <string name="skin_health">Skin Health</string>
+    <string name="no_result_yet">No result yet</string>
+    <string name="your_skin_type">Your skin type is:</string>
+    <string name="reviewed_by_professionals">Reviewed by Professionals</string>Analysis results for /string>
+    <string name="disclaimer">Disclaimer: Your uploaded photo is safe with us.
+    We do not share your photo with any third party</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions:]]></string>
+    <string name="upload_instruction">UPLOAD IMAGE INSTRUCTION</string>
+    <string name="terms_conditions">— Mempunyai skin journey bersama SECA \n— Mampu berkomunikasi dengan baik \n— Mengerti dasar-dasar tentang perawatan kulit</string>
+</resources>

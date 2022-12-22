@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="@string/search"
+
+        android:textSize="@dimen/_16dp"
+        android:id="@+id/news"
+        android:fontFamily="@font/nunito_semibold"
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bg"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_20dp"
+                android:layout_height="@dimen/_20dp"
+                android:src="@drawable/ic_icon_loupe"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/_10dp"
+
+                android:id="@+id/search_icon"
+                android:gravity="center_horizontal"
+                />
+            <androidx.appcompat.widget.AppCompatEditText
+                style="@style/small_text"
+                android:hint="@string/type_a_name_client"
+                android:layout_below="@+id/camera_icon"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/search_text"
+                android:singleLine="true"
+                android:background="@android:color/transparent"
+
+                />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/subtitle_text"
+        android:text="@string/recent_client"
+        android:textColor="@color/dark_cyan"
+        android:fontFamily="@font/nunito_semibold"
+
+        android:gravity="center_horizontal"
+        />
+
+    <Spinner
+        android:id="@+id/main_spinner"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:background="@drawable/gray_outline_bg"
+        android:dropDownWidth="match_parent"
+        android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+        android:popupBackground="@android:color/white"
+        android:popupElevation="3dp"
+        android:padding="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:dropDownSelector="@drawable/spinner_arrow"
+        android:pointerIcon="arrow"
+
+        android:stateListAnimator="@drawable/selector_sla"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/subtitle_text"
+            android:text="@string/no_client"
+            android:textColor="@color/dark_cyan"
+
+            android:layout_marginTop="@dimen/_200dp"
+            android:id="@+id/no_client"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="5"
+        android:visibility="gone"
+        tools:listitem="@layout/chat_item"
+
+        app:spanCount="2"/>
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    tools:context=".activity.HomeScreens"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        tools:context=".activity.HomeScreens"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200dp"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:layout_margin="@dimen/_20dp"
+            android:id="@+id/profileImage"
+            />
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark_gray" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClick"
+            android:id="@+id/skinscores"
+            android:padding="@dimen/_20dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:text="@string/skin_scores" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/skin_arrow"
+                android:src="@drawable/down_arrow" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark_gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/no_score_result_View"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:paddingLeft="@dimen/_20dp"
+            android:paddingRight="@dimen/_20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:paddingLeft="@dimen/_5dp"
+                android:paddingTop="@dimen/_25dp"
+                android:paddingBottom="@dimen/_25dp"
+                android:fontFamily="@font/nunito_medium"
+
+                android:textColor="@color/dark_gray"
+                android:text="@string/no_result_yet" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/score_result_View"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:paddingLeft="@dimen/_20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/small_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:paddingLeft="@dimen/_5dp"
+                    android:paddingTop="@dimen/_15dp"
+                    android:paddingBottom="@dimen/_15dp"
+
+                    android:textColor="@color/dark_cyan"
+                    android:text="@string/analysis_results" />
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/small_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:paddingTop="@dimen/_15dp"
+                    android:paddingBottom="@dimen/_15dp"
+                    android:layout_marginLeft="@dimen/_5dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="@color/dark_cyan"
+                    android:id="@+id/score_date"
+                    android:text="@string/skin_concerns" />
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="@dimen/_100dp"
+                android:gravity="center"
+
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:id="@+id/score_value"
+                android:background="@drawable/dark_yellow_outline_bg"
+                android:text="87" />
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:id="@+id/score_key"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:text="@string/skin_health" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/middle_gray"
+                android:textSize="@dimen/_14dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:fontFamily="@font/nunito_medium"
+                android:id="@+id/your_skin_type"
+                android:text="@string/your_skin_type" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/skin_lineView"
+            android:visibility="gone"
+            android:background="@color/dark_gray" />
+
+        <RelativeLayout
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:orientation="horizontal"
+            android:padding="@dimen/_20dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:text="@string/result_analysis" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/analysis_arrow"
+                android:src="@drawable/down_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="visible"
+            android:background="@color/dark_gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/no_result_View"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:paddingLeft="@dimen/_20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:paddingLeft="@dimen/_5dp"
+                android:paddingTop="@dimen/_25dp"
+                android:paddingBottom="@dimen/_25dp"
+
+                android:fontFamily="@font/nunito_medium"
+
+                android:textColor="@color/dark_gray"
+                android:text="@string/no_result_yet" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:id="@+id/analysisView"
+            android:paddingRight="@dimen/_20dp"
+            android:paddingLeft="@dimen/_10dp"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/small_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:padding="@dimen/_10dp"
+                    android:text="@string/analysis_results" />
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/small_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:paddingTop="@dimen/_10dp"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="@color/dark_cyan"
+                    android:id="@+id/analysis_date"
+                    android:text="@string/skin_concerns" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/skin_image"
+                android:layout_width="@dimen/_200dp"
+                android:layout_height="@dimen/_200dp"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_horizontal"
+                android:src="@drawable/profile_icon"
+                android:layout_gravity="center_horizontal"
+
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/_20dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:padding="@dimen/_10dp"
+                android:id="@+id/analysis_title"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:text="@string/overall_result" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/result_rv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_5dp"
+                tools:listitem="@layout/analysis_item"
+                tools:itemCount="10"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10dp"
+                android:id="@+id/skin_concern_title"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:text="@string/skin_concerns" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/skin_concern_rv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_5dp"
+                tools:listitem="@layout/analysis_item"
+                tools:itemCount="4"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10dp"
+                android:id="@+id/aging"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:text="@string/aging" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/aging_rv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_5dp"
+                tools:listitem="@layout/analysis_item"
+                tools:itemCount="3"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                style="@style/small_text"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/dark_cyan"
+                android:text="@string/product_recommendation" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/product_list_rv"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_5dp"
+                tools:listitem="@layout/recommendation_item_layout"
+                tools:itemCount="10"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/analysis_line"
+
+
+            android:background="@color/dark_gray" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

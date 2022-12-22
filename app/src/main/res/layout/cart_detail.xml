@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    tools:context=".activity.HomeScreens"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_product_in_cart"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/dark_cyan"
+        android:id="@+id/no_cart"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_100dp"
+        android:textSize="@dimen/_30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:id="@+id/cart_view"
+        android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delivery_location_only"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/dark_cyan"
+        android:id="@+id/delivery_location"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:textSize="@dimen/_15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dark_gray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delivery_location_layout">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:background="@drawable/blue_outline_bg"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:src="@drawable/location"
+            android:text="-" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/add_address"
+            style="@style/small_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_toRightOf="@+id/location_icon"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="@string/add_address"
+            android:textColor="@color/teal_700"
+            android:visibility="visible" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/default_address"
+            style="@style/small_text"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_toRightOf="@+id/location_icon"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/edit_address"
+
+            android:textColor="@color/dark_cyan"
+            android:text="Get’manska str, 25
+51200, Ukraine" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/edit_address"
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:layout_marginRight="@dimen/_20dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:text="-" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@color/dark_gray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:visibility="gone"
+        android:id="@+id/payment_layout">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/payment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:background="@drawable/blue_outline_bg"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:src="@drawable/location"
+            android:text="-" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/payment"
+            style="@style/small_text"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_toRightOf="@+id/payment_icon"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="Master Card
+**** 00921" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_nfo"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/dark_cyan"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:textSize="@dimen/_15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@color/dark_gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="onClick"
+        android:padding="@dimen/_20dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+
+            android:text="@string/subtotal" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            android:id="@+id/subTotal"
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:text="$0" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="onClick"
+        android:padding="@dimen/_20dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+
+            android:text="@string/shipping_cost" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/shippingCost"
+            android:text="$7873" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark_gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="onClick"
+        android:padding="@dimen/_20dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+
+            android:text="@string/total"
+            android:textColor="@color/dark_cyan" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            style="@style/small_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/dark_cyan"
+
+            android:id="@+id/total"
+            android:text="$7873" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_25"
+        android:id="@+id/tvBuy"
+        android:text="@string/buy"
+        android:onClick="onClick"
+        android:textColor="@color/dark_cyan"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_20dp"
+        />
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

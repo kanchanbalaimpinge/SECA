@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/drawable/ic_group_1162.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/drawable/ic_group_1163.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/activity_login.xml" value="0.16502778965369816" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/activity_new_user_registration.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/cam_instruction_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_aiscan.xml" value="0.16805390408244153" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_become_consultant.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_consultant_view.xml" value="0.16805390408244153" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_face_scan.xml" value="0.16805390408244153" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_face_scan_detail.xml" value="0.16805390408244153" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/fragment_home.xml" value="0.16805390408244153" />
+        <entry key="..\:/AndroidProjects/Skincare_9_june/Skincare/app/src/main/res/layout/scan_instruction_layout.xml" value="0.16805390408244153" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/blue_button.xml" value="0.2794871794871795" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/bott_nav_bg.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/bottom_nav.xml" value="0.115" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/button_bg.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/camera.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/cart_bg.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/cross_bg.xml" value="0.11875" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/cyan_circle.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/cyan_circle1.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/dark_yellow_outline_bg.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/darkgreen_bg.xml" value="0.37" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/down_arrow.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/expand.xml" value="0.11875" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/eye.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/gallery.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/gray_circle.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/gray_circle1.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/gray_outline_bg.xml" value="0.11875" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/green_bg.xml" value="0.23037974683544304" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/home.xml" value="0.1234375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_bg.xml" value="0.2794871794871795" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_cross.xml" value="0.2794871794871795" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_filled_state.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_group_1162.xml" value="0.141" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_home.xml" value="0.115" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_news.xml" value="0.119" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/ic_rectangle_25.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/profile_icon.xml" value="0.1515" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/read_bg.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/selected_button.xml" value="0.1705" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/selector_sla.xml" value="0.1234375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/submit_bg.xml" value="0.1705" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/tab_pager_selector.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/upside.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/whtsapp_icon.xml" value="0.1515" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/drawable/yellow_outline_bg.xml" value="0.185" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_change_password.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_home.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_launch.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_main.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_main1.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_new_user_registration.xml" value="0.1390625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_pswd_verification.xml" value="0.16" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_reset.xml" value="0.26360544217687076" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_signup.xml" value="0.1390625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/activity_whtsapp_verification.xml" value="0.1390625" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/analysis_item.xml" value="0.16185819070904645" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/cam_instruction_layout.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/cart_detail.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/cart_product_item.xml" value="0.19387755102040816" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/chat_item.xml" value="0.13" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_aiscan.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_become_consultant.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_consultant.xml" value="0.33" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_consultant_view.xml" value="0.15846994535519127" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_face_scan.xml" value="0.18" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_face_scan_detail.xml" value="0.21670428893905191" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_home.xml" value="0.14675984752223634" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_news.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_product.xml" value="0.10104166666666667" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/fragment_shop.xml" value="0.13636363636363635" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/news_detail.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/news_item.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/product_detail.xml" value="0.1623931623931624" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/product_item.xml" value="0.22" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/product_meta_layout.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/purchase_item.xml" value="0.25" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/recommendation_item_layout.xml" value="0.16185819070904645" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/review_layout.xml" value="0.21" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/scan_instruction_layout.xml" value="0.16185819070904645" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/scan_item.xml" value="0.27366504854368934" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/spinner_item_selected.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/tab_view.xml" value="0.75" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/layout/welcome_item_vieew.xml" value="0.13323353293413173" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/menu/bottom_nav_menu1.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Skincare/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2794871794871795" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

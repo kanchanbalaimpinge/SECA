@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/_10dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/product_image"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_150dp"
+        android:fontFamily="@font/nunito_medium"
+        android:gravity="center_horizontal"
+        android:src="@drawable/product_dummy"
+        android:text="21 Sep"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_20dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/_10dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_20dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="AHA 10 Serum"
+
+        android:textSize="25dp"
+        android:id="@+id/product_name"
+        android:gravity="left"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 140$"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/dark_gray"
+        android:id="@+id/product_price"
+        android:layout_marginTop="@dimen/_10dp"
+        android:textSize="@dimen/_14dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete_bg"
+            android:id="@+id/delete"
+            android:src="@drawable/delete"
+            android:padding="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_10dp"
+
+            />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10dp"
+            android:background="@drawable/yellow_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/minus"
+                style="@style/title_text"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_20dp"
+                android:text="-" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/quantity"
+                style="@style/title_text"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:fontFamily="@font/nunito_regular"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_20dp"
+
+
+                android:text="45" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/add"
+                style="@style/title_text"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_20dp"
+
+                android:text="+" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="150dp"
+    app:cardUseCompatPadding="true"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="150dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="right"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/playfairdisplay_bold"
+            android:gravity="left"
+            android:text="@string/scan_progress"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_30dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view"
+            android:layout_gravity="left"
+
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/nunito_regular"
+            android:gravity="left"
+            android:text="@string/whts_app_message"
+            android:textColor="@color/grayy"
+            android:textSize="@dimen/_16dp" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

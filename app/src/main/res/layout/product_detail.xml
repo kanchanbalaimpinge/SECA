@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    tools:context=".activity.HomeScreens"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatImageView
+
+        style="@style/title_text"
+        android:layout_margin="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:id="@+id/back"
+        android:layout_gravity="left"
+        android:onClick="onClick"
+        android:src="@drawable/back"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200dp"
+        android:fontFamily="@font/nunito_medium"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/product_dummy"
+        android:text="21 Sep"
+
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_20dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20dp"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yellow_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/minus"
+                style="@style/title_text"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:gravity="center_horizontal"
+                android:onClick="onClick"
+                android:text="-"
+                android:textSize="@dimen/_20dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/quantity"
+                style="@style/title_text"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_horizontal"
+                android:text="1"
+
+
+                android:textSize="@dimen/_20dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/add"
+                style="@style/title_text"
+                android:gravity="center_horizontal"
+                android:onClick="onClick"
+                android:text="+"
+
+                android:textSize="@dimen/_20dp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/product_price"
+            style="@style/title_text"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10dp"
+
+
+            android:fontFamily="@font/nunito_medium"
+            android:gravity="center_horizontal"
+            android:text="$8944"
+            android:textSize="@dimen/_20dp" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="AHA 10 Serum"
+        android:id="@+id/product_name"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:gravity="left"
+     />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/dark_gray"
+        android:id="@+id/product_desc"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:textSize="@dimen/_16dp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40dp"
+        tools:listitem="@layout/product_meta_layout"
+        />
+
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submit_bg"
+        android:onClick="onClick"
+        android:text="@string/add_to_cart"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:textColor="@color/dark_cyan" />
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

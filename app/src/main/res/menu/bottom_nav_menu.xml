@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+
+
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ai_scan"
+        android:enabled="true"
+        android:icon="@drawable/ic_ai_scan"
+        android:title="@string/ai_scan"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/shop"
+        android:enabled="true"
+        android:icon="@drawable/ic_shopping_bag"
+        android:title="@string/shop"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/become"
+        android:enabled="true"
+        android:icon="@drawable/ic_consultant"
+        android:title="@string/become"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/news"
+        android:enabled="true"
+        android:icon="@drawable/ic_news"
+        android:title="@string/news"
+        app:showAsAction="ifRoom" />
+</menu>

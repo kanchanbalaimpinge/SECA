@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_10dp"
+    android:paddingLeft="@dimen/_10dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="@string/ai_analyzer"
+
+        android:id="@+id/news"
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/small_text"
+        android:text="@string/reviewed_by_professionals"
+        android:id="@+id/review_by_prof"
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/camera_bg"
+            android:id="@+id/selfie"
+            android:layout_margin="@dimen/_10dp"
+            android:layout_weight="40">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/camera_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_group_1162" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/camera_bg"
+            android:layout_margin="@dimen/_10dp"
+            android:id="@+id/gallery"
+            android:layout_weight="40">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gallery_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_group_1163" />
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="@string/history_of_scans"
+
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/subtitle_text"
+        android:text="@string/no_scan"
+        android:layout_marginTop="@dimen/_50dp"
+        android:textSize="@dimen/_20dp"
+        android:layout_gravity="center"
+
+        android:id="@+id/no_scan_title"
+        android:fontFamily="@font/nunito_regular"
+        android:gravity="center_horizontal"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:itemCount="5"
+        android:visibility="visible"
+        tools:listitem="@layout/scan_item"
+        android:nestedScrollingEnabled="true"
+
+        app:spanCount="2"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

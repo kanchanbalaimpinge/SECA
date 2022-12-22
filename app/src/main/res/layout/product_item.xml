@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_gravity="center_horizontal"
+android:gravity="center_horizontal"
+android:layout_height="wrap_content"
+android:padding="@dimen/_10dp"
+android:orientation="vertical">
+
+<androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/product_image"
+    android:layout_width="@dimen/_200dp"
+    android:layout_height="@dimen/_200dp"
+    android:fontFamily="@font/nunito_medium"
+    android:gravity="center_horizontal"
+    android:src="@drawable/product_dummy"
+    android:text="21 Sep"
+    android:layout_marginTop="@dimen/_10dp"
+    android:textColor="@color/dark_gray"
+    android:textSize="@dimen/_20dp" />
+
+<androidx.appcompat.widget.AppCompatTextView
+    style="@style/title_text"
+    android:text="AHA 10 Serum"
+
+    android:id="@+id/product_name"
+    android:gravity="center_horizontal"
+    />
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Meremajakan kulit wajah Mencegah dan mengatasi jerawat Mencerahkan kulit"
+    android:fontFamily="@font/nunito_medium"
+    android:textColor="@color/dark_gray"
+    android:id="@+id/product_desc"
+    android:layout_marginTop="@dimen/_10dp"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/_20dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_outline_bg"
+        android:id="@+id/details"
+        android:text="@string/details"
+        android:onClick="onClick"
+        android:textColor="@color/dark_cyan"
+        android:layout_margin="@dimen/_10dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cart_bg"
+        android:id="@+id/addCart"
+        android:text="@string/add_to_cart"
+        android:onClick="onClick"
+        android:textColor="@color/dark_cyan"
+        android:layout_margin="@dimen/_10dp"
+        />
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:background="@drawable/divider"/>
+
+</LinearLayout>

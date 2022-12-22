@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/_10dp"
+    android:paddingBottom="@dimen/_10dp"
+    android:paddingRight= "@dimen/_5dp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="@dimen/_120dp"
+        android:layout_height="wrap_content"
+        android:text="21 sfffdsfsdSrewrewrweep"
+
+        android:fontFamily="@font/nunito_medium"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:textColor="@color/dark_gray"
+        android:id="@+id/order_id"
+        android:textSize="@dimen/_13dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="@dimen/_80dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/_20dp"
+        android:fontFamily="@font/nunito_medium"
+        android:text="21 fdsfdsfdfsSep"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_13dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:layout_height="wrap_content"
+        android:text="Hyaluronic Acid dsfdsfdsfdsfdsfdsdfdsffsfsd2% (2)"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/dark_gray"
+        android:id="@+id/product_name"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:textSize="@dimen/_13dp"/>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_10dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="@string/ai_analyzer"
+
+        android:id="@+id/news"
+        android:gravity="center_horizontal"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_100dp"
+            android:background="@drawable/green_bg"
+            android:id="@+id/lightning"
+            android:layout_margin="@dimen/_10dp"
+            android:layout_weight="40">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/subtitle_text"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="@string/lighning_gold"
+
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/darkgreen_bg"
+            android:layout_margin="@dimen/_10dp"
+
+            android:layout_weight="40">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/subtitle_text"
+                android:layout_centerInParent="true"
+
+                android:gravity="center_horizontal"
+                android:text="@string/look_straignht"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/darkgreen_bg"
+            android:layout_margin="@dimen/_10dp"
+            android:layout_weight="40">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/subtitle_text"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+
+                android:text="@string/face_position"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        style="@style/subtitle_text"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/lighning_gold"
+
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/subtitle_text"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/lighning_gold"
+
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:text="@string/history_of_scans"
+
+        android:gravity="center_horizontal"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20dp"
+
+        android:gravity="center_horizontal"
+        android:src="@drawable/flip_camera"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/title_text"
+        android:layout_width="match_parent"
+        android:text="@string/flip_camera"
+
+        android:gravity="center_horizontal"
+        />
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:background="@drawable/face_scan"
+      android:layout_margin="@dimen/_20dp"
+      android:layout_gravity="center_horizontal">
+
+      <androidx.appcompat.widget.AppCompatTextView
+          style="@style/title_text"
+          android:layout_centerInParent="true"
+          android:layout_gravity="center"
+          android:layout_margin="@dimen/_20dp"
+
+          android:gravity="center_horizontal"
+          android:lines="2"
+          android:textColor="@color/light_green"
+          android:text="@string/keep_face_inside" />
+
+  </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
